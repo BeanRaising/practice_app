@@ -3,13 +3,14 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 //Code to import Budget.js
-import Budget from './components/Budget';
+// import Budget from './components/Budget';
 
 // Add code to import the other components here under
 
 
 import { AppProvider } from './context/AppContext';
 const App = () => {
+    alert('alert');
     return (
         <AppProvider>
             <div className='container'>
